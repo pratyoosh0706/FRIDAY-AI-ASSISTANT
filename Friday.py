@@ -33,7 +33,7 @@ def listen():
 
 def get_pentestgpt_response(query):
     client = Groq(
-        api_key=["YOUR_API_KEY_HEAR",
+        api_key="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",
     )
 
     chat_completion = client.chat.completions.create(
